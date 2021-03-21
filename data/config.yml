@@ -1,0 +1,6 @@
+web_address:
+  url: "https://stage-happy.amco.me/"
+  
+parent_keys:
+  parent_account: "parent@c2r.amco.me"
+  parent_password: "Amco12345"
