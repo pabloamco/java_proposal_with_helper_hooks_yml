@@ -9,6 +9,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.yaml.snakeyaml.Yaml;
+
+import config.ObjectPorperties;
 
 
 @RunWith(Cucumber.class)
@@ -25,6 +28,7 @@ public class Hooks {
 			System.out.println("-----------------Starting Scenario-----------------");
 			driver = new ChromeDriver();
 			initialized = true;
+			ObjectPorperties.initObjProp();
 		  }
 		}
 	  
